@@ -1,0 +1,24 @@
+<%- include('header') -%>
+<body>
+    <div class="box" id="heading">
+        <h1><%= nowDay %> </h1>
+    </div>
+    
+    <div class="box">
+
+        <% for (var i = 0; i < newItemList.length; i++) { %>
+            <div class="tem">
+                <input type="checkbox">
+                <p><%= newItemList[i] %></p>
+            </div>
+        <% }  %>
+
+    
+
+        <form class="item" action="/" method= "POST">
+            <input type="text" name="item" placeholder="New Item" autocomplete="off">
+            <button type="submit" name="button">+</button>
+        </form>
+    </div>
+    
+    <%- include('footer') -%>
