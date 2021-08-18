@@ -35,7 +35,7 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  npm install express ejs
+  npm install
 ```
 
 Run the app 
