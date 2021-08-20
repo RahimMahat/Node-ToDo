@@ -87,7 +87,7 @@ app.get("/:customListName", (req, res) => {
             } else {
                 // show existing list
                 res.render('list', { listTitle: result.name, newItemList: result.items });
-                res.render("list", )
+      
             }
         }
     })
