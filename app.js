@@ -83,7 +83,7 @@ app.get("/:customListName", (req, res) => {
                     items: defaultItem
                 })
                 list.save();
-                res.redirect('/'+customListName)
+                res.redirect(`/${customListName}`)
             } else {
                 // show existing list
                 res.render('list', { listTitle: result.name, newItemList: result.items });
@@ -110,7 +110,7 @@ app.post("/", (req, res) => {
             List.findOne({name: listName}, (err, result) => {
                 result.items.push(item);
                 result.save();
-                res.redirect('/'+listName);
+                res.redirect(`/${listName}`);
             })
         }
 
