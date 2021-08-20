@@ -5,6 +5,8 @@ the localhost and make your own todo list for daily usage
 you can write your todos and once done with that you can
 check the checkbox which will draw a line on your todo
 which means you're done with that task
+The database used to store the app is mongoDB
+which we implemented in our app using mongoose
 
 ## Authors
 
