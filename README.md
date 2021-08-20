@@ -35,7 +35,3 @@ Run the app
 ```bash
   node app.js
 ```
-
-## Screenshots
-
-![App Screenshot](public/node-todo.jpg)
