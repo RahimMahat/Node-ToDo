@@ -46,6 +46,6 @@ Run the app
 
   
 ## 🔗 Links
-[[Link for the website]](https://aqueous-crag-89288.herokuapp.com/%20deployed%20to%20heroku)
+[[Link for the WebApp]](https://aqueous-crag-89288.herokuapp.com/%20deployed%20to%20heroku)
 
   
